@@ -1,6 +1,6 @@
 [package]
 name = "tfpin"
-version = "1.0.0"
+version = "1.1.0"
 edition = "2024"
 rust-version = "1.85"
 description = "Lint Terraform files against pinned versions and conventions declared in a config file"
