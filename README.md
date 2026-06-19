@@ -39,9 +39,9 @@ tfpin [PATHS]...
   refactor is mid-flight).
 
 ```sh
-tfpin                          # check the whole repo
-tfpin platform/stack/prod      # check one subtree
-tfpin -c ci/.tfpin.toml -v     # explicit config, verbose
+tfpin                            # check the whole repo
+tfpin platform/stack/prod        # check one subtree
+tfpin -c ci/.tfpin.toml -v       # explicit config, verbose
 tfpin --ignore-forbidden-blocks  # skip the forbidden_blocks check
 ```
 
